@@ -1,5 +1,3 @@
-const { expect } = require('@jest/globals');
-const { test } = require('picomatch');
 const Potion = require('../lib/Potion.js');
 
 test('creates a random potion object', () => {
